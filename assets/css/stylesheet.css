@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+/* general settings */
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: var(--primary-color);
+}
+
+:root {
+    --primary-color: #577399;
+    --secondary-color: #495867;
+    --tertiary-color: #F7F7FF;
+    /* --tertiary-color: #BDD5EA; (may decide to use this color instead)*/
+}
+
+/* Begin styling header */
+header {
+    padding: 20px 35px;
+    background-color: var(--secondary-color);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    color: var(--tertiary-color);
+}
+
+header a:hover {
+    color: var(--tertiary-color);
+}
+
+.navbar ul {
+    display: flex;
+    margin: 20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.navbar a {
+    background-color: var(--primary-color);
+    padding: 10px;
+    margin: 5px;
+}
+
+.navbar a:hover {
+    color: var(--tertiary-color);
+}
