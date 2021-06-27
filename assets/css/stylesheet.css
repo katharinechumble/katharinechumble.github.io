@@ -184,4 +184,36 @@ section h2 {
 
 .contact ul li a {
     text-decoration: none;
+    color: var(--secondary-color);
+}
+
+.contact ul li a:hover {
+    color: var(--quartiary-color);
+}
+
+/* end contact section */
+/* begin resume section */
+
+.resume {
+    background: var(--quartiary-color);
+    display: flex;
+}
+
+.resume h2 {
+    margin-bottom: 20px;
+}
+
+.resume a {
+    text-decoration: none;
+    color: var(--tertiary-color);
+    background: var(--primary-color);
+    padding: 15px;
+    font-size: 20px;
+    margin-top: 20px;
+    transition: all 2s ease-out;
+}
+
+.resume a:hover {
+    color: var(--primary-color);
+    background: var(--tertiary-color);
 }
