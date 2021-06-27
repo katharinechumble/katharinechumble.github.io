@@ -23,7 +23,7 @@ header {
     justify-content: space-between;
     flex-wrap: wrap;
     color: var(--tertiary-color);
-    text-shadow: 0 0 15px rgba(0, 5, 0, 0.5);
+    text-shadow: 0 0 15px rgba(0, 0, 0, 0.75);
 }
 
 header a {
@@ -89,9 +89,45 @@ footer h3 {
     color: var(--tertiary-color);
 }
 /* end header styles */
-/* body styles */
-.flex-row {
+
+/* begin hero style */
+
+.hero {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    align-items: center;
+    padding: 20px;
 }
+
+/* body styles */
+.flex-row {
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+section h2 {
+    display: flex;
+    font-size: 30px;
+    font-style: normal;
+    color: var(--secondary-color);
+    text-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+/* end body styles */
+
+/* begin about me section */
+
+.about-me p {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: left;
+    font-size: 18px;
+    line-height: 1.5;
+    align-items: left;
+}
+
+/* end about me */
+/* begin works section style */
+
