@@ -12,7 +12,7 @@ body {
     --primary-color: #577399;
     --secondary-color: #495867;
     --tertiary-color: #F7F7FF;
-    /* --tertiary-color: #BDD5EA; (may decide to use this color instead)*/
+    --quartiary-color: #BDD5EA;
 }
 
 /* Begin styling header */
@@ -54,7 +54,7 @@ header a:hover {
 .navbar a:hover,
 a:focus {
     color: var(--tertiary-color);
-    background-color: #BDD5EA;
+    background-color: var(--quartiary-color);
     }
 
 .navbar ul:hover {
@@ -98,6 +98,7 @@ footer h3 {
     justify-content: space-between;
     align-items: center;
     padding: 20px;
+    background: var(--quartiary-color);
 }
 
 /* body styles */
@@ -108,7 +109,6 @@ footer h3 {
 }
 
 section h2 {
-    display: flex;
     font-size: 30px;
     font-style: normal;
     color: var(--secondary-color);
@@ -118,6 +118,11 @@ section h2 {
 /* end body styles */
 
 /* begin about me section */
+
+.about-me {
+    display: flex;
+    background: var(--tertiary-color);
+}
 
 .about-me p {
     display: flex;
@@ -131,3 +136,52 @@ section h2 {
 /* end about me */
 /* begin works section style */
 
+.work {
+    width: 100%;
+    margin: 0, auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background: var(--quartiary-color);
+}
+.work-card {
+    margin: 20px;
+    flex: 1;
+    background: var(--secondary-color);
+    color: var(--tertiary-color);
+    align-items: center;
+    width: 50%;
+}
+
+.work-card h3{
+    text-align: center;
+    font-size: 20px;
+    padding: 15px;
+    line-height: 1.5;
+}
+
+.work-card img {
+    width: 100%;
+}
+
+.work-card:hover {
+    transition-property: all, 4s, ease-out;
+}
+
+/* end works section style */
+
+/* begin contact section */
+
+.contact {
+    display: flex;
+    background: var(--tertiary-color);
+}
+
+.contact ul {
+    list-style: none;
+}
+
+.contact ul li a {
+    text-decoration: none;
+}
